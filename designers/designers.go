@@ -2,7 +2,7 @@ package designers
 
 import "github.com/go-modules-by-example-staging/goinfo/contributors"
 
-func Names() []string {
+func FullNames() []string {
 	var res []string
 	for _, p := range contributors.Details() {
 		switch p.FullName {
